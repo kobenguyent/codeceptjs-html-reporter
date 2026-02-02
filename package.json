@@ -1,0 +1,26 @@
+{
+  "name": "codeceptjs-html-reporter",
+  "version": "1.0.0",
+  "description": "Beautiful HTML Reporter for CodeceptJS",
+  "keywords": [
+    "reporter",
+    "html-reporter",
+    "codeceptjs-reporter"
+  ],
+  "license": "MIT",
+  "author": "kobenguyent",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test:e2e",
+    "test:e2e": "cd tests/e2e && npx codeceptjs run --steps || true && cd ../.. && mocha tests/e2e/verify_report_test.js"
+  },
+  "dependencies": {
+    "codeceptjs": "^4.0.2-beta.19"
+  },
+  "devDependencies": {
+    "chai": "^6.2.2",
+    "mocha": "^11.7.5"
+  },
+  "files": ["index.js", "utils.js"]
+}
