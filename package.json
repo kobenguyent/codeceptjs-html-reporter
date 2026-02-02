@@ -1,6 +1,6 @@
 {
   "name": "codeceptjs-html-reporter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Beautiful HTML Reporter for CodeceptJS",
   "keywords": [
     "reporter",
@@ -22,5 +22,9 @@
     "chai": "^6.2.2",
     "mocha": "^11.7.5"
   },
-  "files": ["index.js", "utils.js"]
+  "files": ["index.js", "utils.js"],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kobenguyent/codeceptjs-html-reporter.git"
+  }
 }
